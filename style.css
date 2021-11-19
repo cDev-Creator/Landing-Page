@@ -1,68 +1,69 @@
-body {
+body{
   margin: 0;
   background-color: lightblue;
+  box-sizing: border-box;
 }
-.header {
-
+#logo {
+  color: white
+}
+header {
+  height:50px;
+  background: grey;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding-left: 150px;
-  padding-right: 150px;
-  margin-bottom: 100px;
-  background: pink;
-  color: white;
 }
 ul {
   list-style: none;
   display: flex;
-  margin: 0;
-  padding: 0;
-  gap: 16px;
+  padding: 0 20px;
+
+}
+ul li a{
+  padding: 0 20px;
+  text-decoration: none;
+  color: white;
+}
+li a:hover {
+  color: black;
 }
 
-.container {
+.main-hero {
   display: flex;
-  flex-direction: column;
-  align-items: left;
-  background-color: white;
-  padding-left: 150px;
-  padding-right: 150px;
-  padding-bottom: 100px;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  height: 250px;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
 }
 
-
-.txt {
-  display: flex;
-  flex-direction: column;
-  margin-left: -30px;
-  padding: 30px;
-  width: 400px;
+.hero-txt {
+  width: 40%;
 }
-button {
+.hero-button {
   width: 60px;
   height: 30px;
 }
-.img1 {
-  margin-left: 480px;
-  margin-top: -247px;
+.hero-img {
+  max-width: 670px;
+  height: auto;
 }
 
-.center {
-  text-align: center;
-  margin-bottom: 80px;
-}
-.content{
+#headshot-heading {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+.headshots-containter{
+  display: flex;
   justify-content: center;
   align-items: center;
+  justify-content: center;
+  height: 400px;
   background: pink;
+
 }
- .info {
+ .headshot {
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -82,7 +83,7 @@ button {
    font-size: 28px;
  }
 
- .scontainter{
+ .signup-containter{
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -97,7 +98,7 @@ button {
    gap: 16px;
    padding: 16px;
  }
- #buttoncenter {
+ #signup-button {
    text-align: center;
  }
 
